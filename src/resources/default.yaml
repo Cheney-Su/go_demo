@@ -1,0 +1,27 @@
+isDevelopment: true
+
+db:
+  dialect: "mysql"
+  host: "192.168.1.204"
+  port: 3306
+  user: "web"
+  password: "123456"
+  database: "test"
+  maxIdle: 20
+  maxOpen: 20
+
+redis:
+  addr: "192.168.1.204:6379"
+  password: 123456
+  database: 15
+  prefix: "game"
+  max-idle: 20
+  max-active: 50
+  idle-timeout: 60
+
+nsq:
+  ip: "192.168.1.204"
+  port: 4150
+
+zookeeper:
+  zooKeeperHosts: "192.168.1.204:2288"

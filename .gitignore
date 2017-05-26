@@ -12,4 +12,4 @@
 *.ear
 /target
 /out
-
+*.md
